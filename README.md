@@ -131,6 +131,13 @@ By leveraging advanced AI-driven forecasting, real-time risk intelligence, and c
 
 ---
 
+
+## 📊 Project Flowchart
+
+<p align="center">
+  <img src="flowchart.png" alt="Project Flowchart" width="100%">
+</p>
+
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!--  KEY FEATURES                                                   -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
