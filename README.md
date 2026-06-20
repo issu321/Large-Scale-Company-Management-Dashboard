@@ -138,6 +138,12 @@ By leveraging advanced AI-driven forecasting, real-time risk intelligence, and c
   <img src="flowchart.png" alt="Project Flowchart" width="100%">
 </p>
 
+## 📊 Neural-Workflow
+
+<p align="center">
+  <img src="neuralflow.png" alt="Project Flowchart" width="100%">
+</p>
+
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!--  KEY FEATURES                                                   -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
