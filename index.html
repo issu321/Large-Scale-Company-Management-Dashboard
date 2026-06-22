@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Usman | Enterprise Software Architect</title>
+  <meta name="description" content="Portfolio of Mohammed Usman - Full-Stack Developer, AI Architect, and Creator of Digital Business Simulator AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-dark">
+  <div class="mesh-bg">
+    <div class="mesh-orb"></div>
+    <div class="mesh-orb"></div>
+    <div class="mesh-orb"></div>
+    <div class="mesh-orb"></div>
+  </div>
+  <div class="noise-overlay"></div>
+  <canvas id="networkCanvas" class="network-canvas"></canvas>
+
+  <nav class="glass-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <div class="nav-brand-icon">MU</div>
+        <span>Mohammed Usman</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link active"><span>Home</span></a></li>
+        <li><a href="about.html" class="nav-link"><span>About</span></a></li>
+        <li><a href="software.html" class="nav-link"><span>Software</span></a></li>
+        <li><a href="contact.html" class="nav-link"><span>Contact</span></a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="theme-switcher">
+          <button class="theme-btn" data-tooltip="Switch Theme">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="theme-dropdown">
+            <div class="theme-option active" data-theme="theme-dark">
+              <div class="theme-dot dark"></div>
+              <span>Dark Gold</span>
+            </div>
+            <div class="theme-option" data-theme="theme-light">
+              <div class="theme-dot light"></div>
+              <span>Light Blue</span>
+            </div>
+            <div class="theme-option" data-theme="theme-neural">
+              <div class="theme-dot neural"></div>
+              <span>Neural Purple</span>
+            </div>
+            <div class="theme-option" data-theme="theme-aurora">
+              <div class="theme-dot aurora"></div>
+              <span>Aurora Green</span>
+            </div>
+          </div>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Available for Enterprise Consulting
+        </div>
+        <h1 class="hero-title">
+          Building the Future of<br>
+          <span class="gradient-text">Business Intelligence</span>
+        </h1>
+        <p class="hero-subtitle">
+          Full-Stack Developer & AI Architect crafting next-generation digital twin platforms, 
+          strategic forecasting engines, and enterprise simulation systems that transform raw data into decisive action.
+        </p>
+        <div class="hero-actions">
+          <a href="software.html" class="btn btn-primary btn-lg btn-liquid">
+            <i class="fas fa-download"></i>
+            Explore Software
+          </a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">
+            <i class="fas fa-paper-plane"></i>
+            Get In Touch
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-container">
+        <div class="grid-4">
+          <div class="glass-card stat-card animate-on-scroll">
+            <div class="stat-number counter" data-target="15" data-duration="2000">0</div>
+            <div class="stat-label">Enterprise Projects</div>
+          </div>
+          <div class="glass-card stat-card animate-on-scroll delay-1">
+            <div class="stat-number counter" data-target="50" data-duration="2000">0</div>
+            <div class="stat-label">GitHub Repositories</div>
+          </div>
+          <div class="glass-card stat-card animate-on-scroll delay-2">
+            <div class="stat-number counter" data-target="3" data-duration="2000">0</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="glass-card stat-card animate-on-scroll delay-3">
+            <div class="stat-number counter" data-target="100" data-duration="2000">0</div>
+            <div class="stat-label">% Dedication</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 2rem;">
+      <div class="section-container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Core Expertise</span>
+          <h2 class="section-title">What I Build</h2>
+          <p class="section-desc">
+            From AI-powered forecasting to digital twin simulation, I architect systems that give businesses a competitive edge.
+          </p>
+        </div>
+        <div class="grid-3">
+          <div class="glass-card feature-card animate-on-scroll">
+            <div class="feature-icon"><i class="fas fa-brain"></i></div>
+            <h3 class="feature-title">AI & Machine Learning</h3>
+            <p class="feature-desc">Predictive analytics, time-series forecasting with ARIMA/Prophet, neural networks, and ensemble methods.</p>
+          </div>
+          <div class="glass-card feature-card animate-on-scroll delay-1">
+            <div class="feature-icon"><i class="fas fa-cube"></i></div>
+            <h3 class="feature-title">Digital Twin Systems</h3>
+            <p class="feature-desc">High-fidelity virtual business representations enabling scenario simulation and operational optimization.</p>
+          </div>
+          <div class="glass-card feature-card animate-on-scroll delay-2">
+            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+            <h3 class="feature-title">Business Intelligence</h3>
+            <p class="feature-desc">End-to-end analytics platforms with real-time KPI monitoring and automated reporting engines.</p>
+          </div>
+          <div class="glass-card feature-card animate-on-scroll">
+            <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
+            <h3 class="feature-title">Risk Intelligence</h3>
+            <p class="feature-desc">Comprehensive risk quantification covering financial, operational, market, and supply chain domains.</p>
+          </div>
+          <div class="glass-card feature-card animate-on-scroll delay-1">
+            <div class="feature-icon"><i class="fas fa-code"></i></div>
+            <h3 class="feature-title">Full-Stack Engineering</h3>
+            <p class="feature-desc">Python/Flask backends, React/Vue frontends, SQL/NoSQL databases, REST APIs, and cloud-native architecture.</p>
+          </div>
+          <div class="glass-card feature-card animate-on-scroll delay-2">
+            <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+            <h3 class="feature-title">System Optimization</h3>
+            <p class="feature-desc">Mathematical optimization for pricing, inventory, supply chains, workforce scheduling, and marketing budgets.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Behind The Code</span>
+          <h2 class="section-title">Development Philosophy</h2>
+        </div>
+        <div class="glass-card glass-card-strong animate-on-scroll" style="max-width: 800px; margin: 0 auto;">
+          <div class="terminal">
+            <div class="terminal-header">
+              <div class="mockup-dot red"></div>
+              <div class="mockup-dot yellow"></div>
+              <div class="mockup-dot green"></div>
+            </div>
+            <div class="terminal-line"><span class="prompt">$</span> <span class="command">whoami</span></div>
+            <div class="terminal-line">Mohammed Usman — Full-Stack Developer & AI Architect</div>
+            <div class="terminal-line"></div>
+            <div class="terminal-line"><span class="prompt">$</span> <span class="command">cat mission.txt</span></div>
+            <div class="terminal-line">Building enterprise-grade digital twin platforms that transform</div>
+            <div class="terminal-line">how organizations simulate, forecast, and optimize their future.</div>
+            <div class="terminal-line"></div>
+            <div class="terminal-line"><span class="prompt">$</span> <span class="command">ls skills/</span></div>
+            <div class="terminal-line">Python/Flask  SQL/NoSQL  React/JS  AI/ML  Cloud  DevOps</div>
+            <div class="terminal-line"></div>
+            <div class="terminal-line"><span class="prompt">$</span> <span class="command">git status</span></div>
+            <div class="terminal-line">On branch main — Always shipping, always iterating.</div>
+            <div class="terminal-line"><span class="prompt">$</span> <span class="command">_</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-bottom: 6rem;">
+      <div class="section-container" style="text-align: center;">
+        <div class="glass-card animate-on-scroll" style="max-width: 700px; margin: 0 auto; padding: 3rem;">
+          <h2 class="section-title" style="margin-bottom: 1rem;">Ready to Build Something Extraordinary?</h2>
+          <p class="section-desc" style="margin-bottom: 2rem;">
+            Whether you need a complete enterprise platform, AI integration, or strategic technical consultation, I'm here to turn your vision into reality.
+          </p>
+          <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="contact.html" class="btn btn-primary btn-lg btn-liquid">
+              <i class="fas fa-handshake"></i>
+              Start a Project
+            </a>
+            <a href="https://github.com/issu321" target="_blank" class="btn btn-secondary btn-lg">
+              <i class="fab fa-github"></i>
+              View GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <i class="fas fa-code" style="margin-right: 0.5rem; color: var(--accent-primary);"></i>
+        Mohammed Usman
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 Mohammed Usman. All rights reserved. Built with precision & passion.
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/issu321" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:jaafreeusman@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Mohammed Usman — Get In Touch</title>
+  <meta name="description" content="Contact Mohammed Usman for enterprise consulting, software development, and strategic partnerships.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-dark">
+  <div class="mesh-bg">
+    <div class="mesh-orb"></div>
+    <div class="mesh-orb"></div>
+    <div class="mesh-orb"></div>
+    <div class="mesh-orb"></div>
+  </div>
+  <div class="noise-overlay"></div>
+  <canvas id="networkCanvas" class="network-canvas"></canvas>
+
+  <nav class="glass-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <div class="nav-brand-icon">MU</div>
+        <span>Mohammed Usman</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link"><span>Home</span></a></li>
+        <li><a href="about.html" class="nav-link"><span>About</span></a></li>
+        <li><a href="software.html" class="nav-link"><span>Software</span></a></li>
+        <li><a href="contact.html" class="nav-link active"><span>Contact</span></a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="theme-switcher">
+          <button class="theme-btn" data-tooltip="Switch Theme">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="theme-dropdown">
+            <div class="theme-option active" data-theme="theme-dark">
+              <div class="theme-dot dark"></div>
+              <span>Dark Gold</span>
+            </div>
+            <div class="theme-option" data-theme="theme-light">
+              <div class="theme-dot light"></div>
+              <span>Light Blue</span>
+            </div>
+            <div class="theme-option" data-theme="theme-neural">
+              <div class="theme-dot neural"></div>
+              <span>Neural Purple</span>
+            </div>
+            <div class="theme-option" data-theme="theme-aurora">
+              <div class="theme-dot aurora"></div>
+              <span>Aurora Green</span>
+            </div>
+          </div>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <!-- Hero -->
+    <section class="hero" style="min-height: 50vh; padding-top: 10rem;">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-paper-plane" style="margin-right: 0.5rem;"></i>
+          Let's Connect
+        </div>
+        <h1 class="hero-title">
+          Start a <span class="gradient-text">Conversation</span>
+        </h1>
+        <p class="hero-subtitle">
+          Open to enterprise consulting, feature development, strategic partnerships, and innovative collaborations.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Grid -->
+    <section class="section" style="padding-top: 2rem;">
+      <div class="section-container">
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info-card animate-on-scroll">
+            <h2 style="font-size: 1.75rem; margin-bottom: 0.5rem;">Contact Information</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Reach out through any of these channels. I typically respond within 24 hours.</p>
+
+            <!-- Email -->
+            <a href="mailto:jaafreeusman@gmail.com" class="contact-item glow-border">
+              <div class="contact-item-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-item-info">
+                <h4>Email</h4>
+                <p>jaafreeusman@gmail.com</p>
+              </div>
+              <i class="fas fa-arrow-up-right-from-square" style="margin-left: auto; color: var(--text-muted); font-size: 0.85rem;"></i>
+            </a>
+
+            <!-- Phone / WhatsApp -->
+            <a href="https://wa.me/918884294749?text=Hello%20Mohammed%20Usman%2C%20I%20saw%20your%20portfolio%20website%20and%20wanted%20to%20connect%20with%20you.%20Looking%20forward%20to%20discussing%20potential%20collaboration!" target="_blank" class="contact-item glow-border">
+              <div class="contact-item-icon" style="background: rgba(37, 211, 102, 0.15); color: #25d366;">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="contact-item-info">
+                <h4>WhatsApp</h4>
+                <p>+91 88842 94749</p>
+                <span style="font-size: 0.75rem; color: var(--accent-primary); margin-top: 0.25rem; display: inline-block;">
+                  <i class="fas fa-bolt" style="margin-right: 0.25rem;"></i>Auto welcome message enabled
+                </span>
+              </div>
+              <i class="fas fa-arrow-up-right-from-square" style="margin-left: auto; color: var(--text-muted); font-size: 0.85rem;"></i>
+            </a>
+
+            <!-- Telegram -->
+            <a href="https://t.me/share/url?url=https://issu321.github.io&text=Hello%20Mohammed%20Usman%2C%20I%20found%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you%20regarding%20a%20project%20opportunity!" target="_blank" class="contact-item glow-border">
+              <div class="contact-item-icon" style="background: rgba(0, 136, 204, 0.15); color: #08c;">
+                <i class="fab fa-telegram"></i>
+              </div>
+              <div class="contact-item-info">
+                <h4>Telegram</h4>
+                <p>+91 88842 94749</p>
+                <span style="font-size: 0.75rem; color: var(--accent-primary); margin-top: 0.25rem; display: inline-block;">
+                  <i class="fas fa-bolt" style="margin-right: 0.25rem;"></i>Auto welcome message enabled
+                </span>
+              </div>
+              <i class="fas fa-arrow-up-right-from-square" style="margin-left: auto; color: var(--text-muted); font-size: 0.85rem;"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/issu321" target="_blank" class="contact-item glow-border">
+              <div class="contact-item-icon" style="background: var(--accent-glow);">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-item-info">
+                <h4>GitHub</h4>
+                <p>github.com/issu321</p>
+              </div>
+              <i class="fas fa-arrow-up-right-from-square" style="margin-left: auto; color: var(--text-muted); font-size: 0.85rem;"></i>
+            </a>
+
+            <!-- Repository -->
+            <a href="https://github.com/issu321/Large-Scale-Company-Management-Dashboard" target="_blank" class="contact-item glow-border">
+              <div class="contact-item-icon" style="background: var(--accent-glow);">
+                <i class="fas fa-code-branch"></i>
+              </div>
+              <div class="contact-item-info">
+                <h4>Main Repository</h4>
+                <p>Large-Scale Company Management Dashboard</p>
+              </div>
+              <i class="fas fa-arrow-up-right-from-square" style="margin-left: auto; color: var(--text-muted); font-size: 0.85rem;"></i>
+            </a>
+
+            <!-- Social Links -->
+            <div style="margin-top: 1.5rem;">
+              <h4 style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Follow & Connect</h4>
+              <div class="social-links">
+                <a href="https://github.com/issu321" target="_blank" class="social-link" data-tooltip="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:jaafreeusman@gmail.com" class="social-link" data-tooltip="Email">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/918884294749?text=Hello%20Mohammed%20Usman%2C%20I%20saw%20your%20portfolio%20website%20and%20wanted%20to%20connect%20with%20you." target="_blank" class="social-link" data-tooltip="WhatsApp" style="color: #25d366;">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://t.me/share/url?url=https://issu321.github.io&text=Hello%20Mohammed%20Usman" target="_blank" class="social-link" data-tooltip="Telegram" style="color: #08c;">
+                  <i class="fab fa-telegram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="animate-on-scroll delay-1">
+            <div class="glass-card glass-card-strong">
+              <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Send a Message</h2>
+              <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 0.9rem;">Fill out the form below and I'll get back to you shortly.</p>
+
+              <form class="contact-form" id="contactForm" onsubmit="event.preventDefault(); handleFormSubmit();">
+                <div class="form-group">
+                  <label class="form-label">Your Name *</label>
+                  <input type="text" class="form-input" placeholder="John Doe" required id="formName">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Email Address *</label>
+                  <input type="email" class="form-input" placeholder="john@example.com" required id="formEmail">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Subject</label>
+                  <input type="text" class="form-input" placeholder="Project Inquiry" id="formSubject">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Message *</label>
+                  <textarea class="form-input" placeholder="Tell me about your project, requirements, or any questions you have..." required id="formMessage"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg btn-liquid" style="width: 100%;" id="submitBtn">
+                  <i class="fas fa-paper-plane"></i>
+                  Send Message
+                </button>
+              </form>
+
+              <!-- Success Message (Hidden by default) -->
+              <div id="successMessage" style="display: none; text-align: center; padding: 2rem 0;">
+                <div style="width: 64px; height: 64px; border-radius: 50%; background: var(--success); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: var(--bg-primary); font-size: 1.5rem;">
+                  <i class="fas fa-check"></i>
+                </div>
+                <h3 style="margin-bottom: 0.5rem;">Message Sent!</h3>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Thank you for reaching out. I'll respond to your inquiry within 24 hours.</p>
+                <div style="margin-top: 1rem;">
+                  <span class="glass-badge"><i class="fas fa-clock"></i> Avg. response time: 4 hours</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map / Location Section (Decorative) -->
+    <section class="section" style="padding-top: 2rem;">
+      <div class="section-container">
+        <div class="glass-card animate-on-scroll" style="text-align: center; padding: 3rem;">
+          <i class="fas fa-globe" style="font-size: 3rem; color: var(--accent-primary); margin-bottom: 1rem; opacity: 0.8;"></i>
+          <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Working Globally</h2>
+          <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto; line-height: 1.7;">
+            Based in India, serving clients worldwide. Remote collaboration is my specialty — timezone differences are never a barrier to delivering exceptional results.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap;">
+            <span class="glass-badge"><i class="fas fa-clock"></i> IST (UTC+5:30)</span>
+            <span class="glass-badge"><i class="fas fa-wifi"></i> Remote Ready</span>
+            <span class="glass-badge"><i class="fas fa-language"></i> English / Hindi / Urdu</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <i class="fas fa-code" style="margin-right: 0.5rem; color: var(--accent-primary);"></i>
+        Mohammed Usman
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 Mohammed Usman. All rights reserved.
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/issu321" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:jaafreeusman@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    function handleFormSubmit() {
+      const btn = document.getElementById('submitBtn');
+      const form = document.getElementById('contactForm');
+      const success = document.getElementById('successMessage');
+
+      // Simulate loading
+      btn.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> Sending...';
+      btn.disabled = true;
+
+      setTimeout(() => {
+        form.style.display = 'none';
+        success.style.display = 'block';
+        success.style.animation = 'fadeInUp 0.5s ease-out';
+      }, 1500);
+    }
+  </script>
+</body>
+</html>

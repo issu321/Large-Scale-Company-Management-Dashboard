@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Mohammed Usman — Enterprise Software Architect</title>
+  <meta name="description" content="Learn about Mohammed Usman - Full-Stack Developer, AI Architect, and creator of Digital Business Simulator AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-dark">
+  <div class="mesh-bg">
+    <div class="mesh-orb"></div>
+    <div class="mesh-orb"></div>
+    <div class="mesh-orb"></div>
+    <div class="mesh-orb"></div>
+  </div>
+  <div class="noise-overlay"></div>
+  <canvas id="networkCanvas" class="network-canvas"></canvas>
+
+  <nav class="glass-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <div class="nav-brand-icon">MU</div>
+        <span>Mohammed Usman</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link"><span>Home</span></a></li>
+        <li><a href="about.html" class="nav-link active"><span>About</span></a></li>
+        <li><a href="software.html" class="nav-link"><span>Software</span></a></li>
+        <li><a href="contact.html" class="nav-link"><span>Contact</span></a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="theme-switcher">
+          <button class="theme-btn" data-tooltip="Switch Theme">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="theme-dropdown">
+            <div class="theme-option active" data-theme="theme-dark">
+              <div class="theme-dot dark"></div>
+              <span>Dark Gold</span>
+            </div>
+            <div class="theme-option" data-theme="theme-light">
+              <div class="theme-dot light"></div>
+              <span>Light Blue</span>
+            </div>
+            <div class="theme-option" data-theme="theme-neural">
+              <div class="theme-dot neural"></div>
+              <span>Neural Purple</span>
+            </div>
+            <div class="theme-option" data-theme="theme-aurora">
+              <div class="theme-dot aurora"></div>
+              <span>Aurora Green</span>
+            </div>
+          </div>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <section class="hero" style="min-height: 60vh; padding-top: 10rem;">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-user" style="margin-right: 0.5rem;"></i>
+          About The Developer
+        </div>
+        <h1 class="hero-title">
+          Architecting <span class="gradient-text">Digital Futures</span>
+        </h1>
+        <p class="hero-subtitle">
+          Passionate about building systems that don't just process data — they predict, simulate, and optimize the future of business.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 2rem;">
+      <div class="section-container">
+        <div class="grid-2" style="align-items: start; gap: 3rem;">
+          <!-- Profile Card with Photo -->
+          <div class="glass-card glass-card-strong animate-on-scroll" style="text-align: center; padding: 3rem;">
+            <img src="https://github.com/user-attachments/assets/a48429b8-0041-4cd9-9889-53c807728331" 
+                 alt="Mohammed Usman" 
+                 class="profile-img"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div style="width: 120px; height: 120px; border-radius: 50%; background: var(--accent-gradient); margin: 0 auto 1.5rem; display: none; align-items: center; justify-content: center; font-size: 3rem; font-weight: 800; color: var(--btn-primary-text); box-shadow: 0 0 40px var(--accent-glow);">
+              MU
+            </div>
+            <h2 style="font-size: 1.75rem; margin-bottom: 0.5rem;">Mohammed Usman</h2>
+            <p style="color: var(--accent-primary); font-weight: 600; margin-bottom: 1rem;">Full-Stack Developer & AI Architect</p>
+            <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.5rem;">
+              Building enterprise digital twin platforms and AI-powered business intelligence systems that transform how organizations make strategic decisions.
+            </p>
+            <div class="social-links" style="justify-content: center;">
+              <a href="https://github.com/issu321" target="_blank" class="social-link" data-tooltip="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="mailto:jaafreeusman@gmail.com" class="social-link" data-tooltip="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://wa.me/918884294749?text=Hello%20Mohammed%20Usman%2C%20I%20saw%20your%20portfolio%20website%20and%20wanted%20to%20connect%20with%20you." target="_blank" class="social-link" data-tooltip="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://t.me/share/url?url=https://issu321.github.io&text=Hello%20Mohammed%20Usman" target="_blank" class="social-link" data-tooltip="Telegram">
+                <i class="fab fa-telegram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div class="glass-card animate-on-scroll" style="margin-bottom: 1.5rem;">
+              <h3 style="font-size: 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem;">
+                <i class="fas fa-bullseye" style="color: var(--accent-primary);"></i>
+                Mission
+              </h3>
+              <p style="color: var(--text-secondary); line-height: 1.7;">
+                To democratize enterprise-grade business intelligence by creating open-source, AI-powered platforms that empower startups, SMEs, and corporations to simulate decisions, forecast outcomes, and optimize operations without risking millions in real capital.
+              </p>
+            </div>
+
+            <div class="glass-card animate-on-scroll delay-1" style="margin-bottom: 1.5rem;">
+              <h3 style="font-size: 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem;">
+                <i class="fas fa-route" style="color: var(--accent-primary);"></i>
+                Journey
+              </h3>
+              <p style="color: var(--text-secondary); line-height: 1.7;">
+                Starting from a deep fascination with algorithms and system design, I evolved into building full-stack enterprise applications. The <strong>Digital Business Simulator AI</strong> represents the culmination of years of research in forecasting engines, risk modeling, and digital twin architecture.
+              </p>
+            </div>
+
+            <div class="glass-card animate-on-scroll delay-2">
+              <h3 style="font-size: 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem;">
+                <i class="fas fa-layer-group" style="color: var(--accent-primary);"></i>
+                Tech Stack
+              </h3>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                <span class="glass-badge"><i class="fab fa-python"></i> Python</span>
+                <span class="glass-badge"><i class="fas fa-flask"></i> Flask</span>
+                <span class="glass-badge"><i class="fas fa-database"></i> SQL/SQLite</span>
+                <span class="glass-badge"><i class="fas fa-brain"></i> Scikit-Learn</span>
+                <span class="glass-badge"><i class="fas fa-chart-area"></i> Pandas</span>
+                <span class="glass-badge"><i class="fab fa-js"></i> JavaScript</span>
+                <span class="glass-badge"><i class="fab fa-react"></i> React</span>
+                <span class="glass-badge"><i class="fab fa-docker"></i> Docker</span>
+                <span class="glass-badge"><i class="fas fa-cloud"></i> AWS/GCP</span>
+                <span class="glass-badge"><i class="fas fa-code-branch"></i> Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Experience</span>
+          <h2 class="section-title">Professional Milestones</h2>
+        </div>
+
+        <div style="max-width: 800px; margin: 0 auto;">
+          <div class="glass-card animate-on-scroll" style="margin-bottom: 1.5rem; border-left: 3px solid var(--accent-primary);">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 0.75rem;">
+              <h3 style="font-size: 1.2rem;">Digital Business Simulator AI</h3>
+              <span class="glass-badge">Founder & Lead Developer</span>
+            </div>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.75rem;">2024 — Present</p>
+            <p style="color: var(--text-secondary); line-height: 1.7;">
+              Architected and developed a comprehensive enterprise digital twin platform featuring AI-powered forecasting, risk intelligence, business simulation, optimization engines, and real-time analytics dashboards.
+            </p>
+          </div>
+
+          <div class="glass-card animate-on-scroll delay-1" style="margin-bottom: 1.5rem; border-left: 3px solid var(--accent-primary);">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 0.75rem;">
+              <h3 style="font-size: 1.2rem;">Large-Scale Company Management Dashboard</h3>
+              <span class="glass-badge">Full-Stack Developer</span>
+            </div>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.75rem;">2023 — 2024</p>
+            <p style="color: var(--text-secondary); line-height: 1.7;">
+              Designed and implemented a multi-module enterprise dashboard with 6-step wizard onboarding, payment configuration, HR management, inventory tracking, and financial analytics.
+            </p>
+          </div>
+
+          <div class="glass-card animate-on-scroll delay-2" style="border-left: 3px solid var(--accent-primary);">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 0.75rem;">
+              <h3 style="font-size: 1.2rem;">Algorithm Analysis & Research</h3>
+              <span class="glass-badge">Researcher</span>
+            </div>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.75rem;">2022 — 2023</p>
+            <p style="color: var(--text-secondary); line-height: 1.7;">
+              Conducted deep research into algorithm optimization, complexity analysis, and predictive modeling techniques. Published findings and open-source implementations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <i class="fas fa-code" style="margin-right: 0.5rem; color: var(--accent-primary);"></i>
+        Mohammed Usman
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 Mohammed Usman. All rights reserved.
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/issu321" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:jaafreeusman@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
