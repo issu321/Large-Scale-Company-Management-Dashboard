@@ -51,19 +51,25 @@
 <br /><br />
 
 <!-- GITHUB STATISTICS BADGES -->
-<img src="https://img.shields.io/github/stars/issu321/digital-business-simulator-ai?style=for-the-badge&logo=github&color=FFD700" alt="GitHub Stars" />
-<img src="https://img.shields.io/github/forks/issu321/digital-business-simulator-ai?style=for-the-badge&logo=github&color=8A2BE2" alt="GitHub Forks" />
-<img src="https://img.shields.io/github/issues/issu321/digital-business-simulator-ai?style=for-the-badge&logo=github&color=FF4500" alt="GitHub Issues" />
-<img src="https://img.shields.io/github/v/release/issu321/digital-business-simulator-ai?style=for-the-badge&logo=github&color=4169E1" alt="GitHub Release" />
+<img src="https://img.shields.io/github/stars/issu321/Large-Scale-Company-Management-Dashboard?style=for-the-badge&logo=github&color=FFD700" alt="GitHub Stars" />
+<img src="https://img.shields.io/github/forks/issu321/Large-Scale-Company-Management-Dashboard?style=for-the-badge&logo=github&color=8A2BE2" alt="GitHub Forks" />
+<img src="https://img.shields.io/github/issues/issu321/Large-Scale-Company-Management-Dashboard?style=for-the-badge&logo=github&color=FF4500" alt="GitHub Issues" />
+<img src="https://img.shields.io/github/v/release/issu321/Large-Scale-Company-Management-Dashboard?style=for-the-badge&logo=github&color=4169E1" alt="GitHub Release" />
 
 <br /><br />
 
 <!-- QUICK ACTION BUTTONS -->
-<a href="https://issu321.github.io/issu321/"><img src="https://img.shields.io/badge/🌐_Live_Demo-4285F4?style=for-the-badge" alt="Live Demo" /></a>
-<a href="https://github.com/issu321/digital-business-simulator-ai/issues"><img src="https://img.shields.io/badge/🐛_Report_Bug-FF5722?style=for-the-badge" alt="Report Bug" /></a>
-<a href="https://github.com/issu321/digital-business-simulator-ai/issues"><img src="https://img.shields.io/badge/✨_Request_Feature-4CAF50?style=for-the-badge" alt="Request Feature" /></a>
+<a href="https://issu321.github.io/Large-Scale-Company-Management-Dashboard/">
+    <img src="https://img.shields.io/badge/🌐_View_Live_Web_App-4285F4?style=for-the-badge" alt="View Live Web App" />
+</a>
 
-</div>
+<a href="https://github.com/issu321/Large-Scale-Company-Management-Dashboard/issues">
+    <img src="https://img.shields.io/badge/🐛_Report_Bug-FF5722?style=for-the-badge" alt="Report Bug" />
+</a>
+
+<a href="https://github.com/issu321/Large-Scale-Company-Management-Dashboard/issues">
+    <img src="https://img.shields.io/badge/✨_Request_Feature-4CAF50?style=for-the-badge" alt="Request Feature" />
+</a>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!--  TABLE OF CONTENTS                                              -->
